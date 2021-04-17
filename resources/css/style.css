@@ -37,9 +37,9 @@ html {
 /* Header */
 
 header {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-basis: auto;
   width: 100%;
   height: auto;
   border-bottom: solid 1px #c6c1c1;
