@@ -122,13 +122,8 @@ header .mobile {
 /* Sign Up Section */
 
 .banner{
-  z-index: 1;
   background-image: url('../images/banner-landingpage.jpg');
-  background-repeat: no-repeat;
   background-size: 500px 1000px;
-  width: 1000px;
-  height: 500px;
-
 
 }
 
