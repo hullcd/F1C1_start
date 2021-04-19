@@ -37,7 +37,7 @@ html {
 /* Header */
 
 header {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-basis: auto;
   width: 100%;
@@ -54,8 +54,12 @@ header .content {
 }
 
 header .logo {
-  flex: 1;
-  display:
+  flex: 1; 
+}
+
+.desktop, .mobile {
+  float: right;
+
 }
 
 header nav ul {
@@ -116,6 +120,17 @@ header .mobile {
 }
 
 /* Sign Up Section */
+
+.banner{
+  z-index: 1;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 1000px;
+  width: 1000px;
+  height: 500px;
+
+
+}
 
 #sign-up-section {
   display: flex;
