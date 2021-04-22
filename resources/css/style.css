@@ -28,7 +28,7 @@ html {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -37,7 +37,7 @@ html {
 /* Header */
 
 header {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-basis: auto;
   width: 100%;
@@ -86,7 +86,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
