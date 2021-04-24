@@ -28,7 +28,7 @@ html {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -38,6 +38,8 @@ html {
 
 header {
   display: flex;
+  flex-direction: row;
+  flex-basis: auto;
   width: 100%;
   height: auto;
   border-bottom: solid 1px #c6c1c1;
@@ -87,7 +89,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
