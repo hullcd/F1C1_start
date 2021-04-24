@@ -37,18 +37,19 @@ html {
 /* Header */
 
 header {
-  display: inline-flex;
-  flex-direction: row;
-  flex-basis: auto;
+  display: flex;
   width: 100%;
   height: auto;
   border-bottom: solid 1px #c6c1c1;
   background-color:black;
 }
 
-header .content {
+header .content  {
   display: inline-flex;
-  align-items: center;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
   padding: 1.875rem;
   width: 100%;
 }
